@@ -5,7 +5,7 @@ import java.sql.*;
 public class Main {
 
     private Connection connect() {
-        String url = "jdbc:sqlite:/Users/evan/uni/bit707_software_engineering/assignment_1/to_do_project/ToDo.db";
+        String url = "jdbc:sqlite:ToDo.db";
         Connection conn = null;
 
         try {
